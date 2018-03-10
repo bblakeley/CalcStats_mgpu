@@ -24,7 +24,7 @@
 #define DataLocation "/home/bblakeley/Documents/Research/DNS_Data/Isotropic/Test/R2_double/%s.%i"
 #define SaveLocation "/home/bblakeley/Documents/Research/DNS_Data/Isotropic/Test/R2_double/stats/%s%g"
 */
-
+/*
 // Define constants for problem
 #define NX 512
 #define NY 512
@@ -45,9 +45,9 @@
 // #define k_max ( 15.0/32.0*(double)NX )		// De-alias using 15/32 truncation (from Weirong's thesis)
 #define DataLocation "/home/bblakeley/Documents/Research/DNS_Data/Isotropic/R4_cuda/%s.%i"
 #define SaveLocation "/home/bblakeley/Documents/Research/DNS_Data/Isotropic/R4_cuda/stats/%s%g"
+*/
 
 
-/*
 // Define constants for problem
 #define NX 1024
 #define NY 1024
@@ -59,7 +59,7 @@
 #define LY (2*PI)
 #define LZ (2*PI)
 #define dx (LX/NX)
-#define n 260		// Number of steps to take between saving data
+#define n_save 130		// Number of steps to take between saving data
 #define dt .0002924483	// Timestep
 #define nt 520		// Total number of timesteps to take in the simulation
 // #define nt 6760		// Total number of timesteps to take in the simulation
@@ -67,9 +67,9 @@
 #define Sc 0.7
 // #define k_max (2.0/3.0*(double)NX/2.0)			// De-alias using the 2/3 truncation rule
 #define k_max ( 15.0/32.0*(double)NX )		// De-alias using 15/32 truncation (from Weirong's thesis)
-#define Datalocation "/home/bblakeley/Documents/Research/DNS_Data/Isotropic/Test/R4_cuda_customworksize/%c.%i"
-#define Savelocation "/home/bblakeley/Documents/Research/DNS_Data/Flamelet_Data/R4/%s.0"
-*/
+#define DataLocation "/home/DNS_Data/R6_MixingLayer/%s.%i"
+#define SaveLocation "/home/DNS_Data/R6/MixingLayer/stats/%s%g"
+
 
 /*
 // Define constants for problem
