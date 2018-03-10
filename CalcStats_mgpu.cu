@@ -2108,7 +2108,7 @@ int main()
 // Set GPU's to use and list device properties
 	int n, nGPUs;
 	// Query number of devices attached to host
-	nGPUs = 1;//cudaGetDeviceCount(&nGPUs);
+	cudaGetDeviceCount(&nGPUs);
 	// List properties of each device
 	displayDeviceProps(nGPUs);
 
